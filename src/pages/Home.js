@@ -5,6 +5,7 @@ import w_pomi_txt from "../assets/w_pomi_txt.png";
 import book from "../assets/book.png";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.scss";
+//import YouTube from "react-youtube";
 
 const Home = () => {
   return (
@@ -18,14 +19,18 @@ const Home = () => {
         </Link>
         <img src={book} alt="Research book" className={styles.bookicon} />
       </div>
-      <div className={styles.col}>
+
+      <div className={styles.colvid}>
         <iframe
-          src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/QtBDL8EiNZo"
+          title="YouTube video player"
           frameborder="0"
-          allow="autoplay; encrypted-media"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          title="video"
-        />
+          className={styles.video}
+        ></iframe>
       </div>
     </div>
   );
