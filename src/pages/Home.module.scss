@@ -1,0 +1,50 @@
+@import "../styles/variables";
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logotext {
+  width: 136px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.bookicon {
+  width: 50px;
+  margin-left: 82px;
+}
+
+.button {
+  width: 136px;
+  height: 136px;
+  border-radius: 100%;
+  border: 0;
+  background: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+}

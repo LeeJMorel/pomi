@@ -1,5 +1,16 @@
+@import "./styles/variables";
+
 .App {
   text-align: center;
+  background: $blue_accent;
+}
+
+.logo {
+  width: 60px;
+}
+
+.logotext {
+  width: 60px;
 }
 
 .App-logo {
